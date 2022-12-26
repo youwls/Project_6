@@ -14,7 +14,7 @@ def un_zip(passwd_string, min_len, max_len, zFile):
             except:
                 pass
 
-passwd_string = "0123456789abcdefghijklmnoprstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+passwd_string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 zFile = zipfile.ZipFile(r'암호는 1234.zip')
 
